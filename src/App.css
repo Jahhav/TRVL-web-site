@@ -102,7 +102,7 @@
 .mystery-cruise,
 .football,
 .desert-tour{
-  font-size: 70px;
+  font-size: 60px;
 
 }
 }
@@ -116,19 +116,19 @@
 .mystery-cruise,
 .football,
 .desert-tour{
-  font-size: 50px;
+  font-size: 35px;
 
 }
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   .football{
     font-size: 60px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .football{
-    font-size: 40px;
+    font-size: 35px;
   }
-}
+} */
