@@ -8,7 +8,12 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.deep-forest,
+.islands,
+.mystery-cruise,
+.football,
+.desert-tour {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,4 +46,89 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.deep-forest {
+  background-image: url('/public/images/img-9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.islands {
+  background-image: url('/public/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.mystery-cruise{
+  background-image: url('/public/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.football{
+  background-image: url('/public/images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;  
+  font-size: 82px;
+}
+
+.desert-tour{
+  background-image: url('/public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;  
+  font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+.services,
+.products,
+.sign-up,
+.deep-forest,
+.islands,
+.mystery-cruise,
+.football,
+.desert-tour{
+  font-size: 70px;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+.services,
+.products,
+.sign-up,
+.deep-forest,
+.islands,
+.mystery-cruise,
+.football,
+.desert-tour{
+  font-size: 50px;
+
+}
+}
+
+@media screen and (max-width: 960px) {
+  .football{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .football{
+    font-size: 40px;
+  }
 }
