@@ -11,6 +11,7 @@ import Islands from './components/pages/islands';
 import MysteryCruise from './components/pages/mystery-cruise';
 import Football from './components/pages/football';
 import DesertTour from './components/pages/desert-tour';
+import VideoPlay from './components/pages/video-play';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/mystery-cruise' Component={MysteryCruise} />
           <Route path='/football' Component={Football} />
           <Route path='/desert-tour' Component={DesertTour} />
+          <Route path='/video-play' Component={VideoPlay} />
         </Routes>
       </Router>
     </>
