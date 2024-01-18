@@ -1,0 +1,65 @@
+[33mcommit 7490b350d6515d4560279a6f4a7bb07ddfe126d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 15:36:26 2024 +0100
+
+    Přidány soubory do sledování Git LFS
+
+[33mcommit daa427d948ddbcc18293cd22e885a03ff7afbee0[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 03:43:26 2024 +0100
+
+    Add design file
+
+[33mcommit 71ac8a9aa3237dc762bc2cc277d4fc215a78c3d8[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 03:16:55 2024 +0100
+
+    changed videos
+
+[33mcommit 5fe834402d8954a671ab3bfbd88fc27a489cc8a9[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 03:08:34 2024 +0100
+
+    .
+
+[33mcommit 2e86ae2d47053774616551740845bdbaa29b447d[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 02:59:42 2024 +0100
+
+    removed 3 videos because of too big files
+
+[33mcommit 268a18e1ba7bcf2d6337959f4692792baaf23108[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 02:51:49 2024 +0100
+
+    removed 3 videos because of too big files
+
+[33mcommit 4246733ddae383bbb69e503553a31a81df0f454b[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 02:32:48 2024 +0100
+
+    adding the videos
+
+[33mcommit 980b4d7060e9ebc29c4edd183212d2ea212c64c7[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 17 00:07:17 2024 +0100
+
+    adding the Page component and fixing the phone sizeing
+
+[33mcommit dfa80a3606bfb786d2d6ecdc561f2666ae9320e5[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Tue Jan 16 01:15:31 2024 +0100
+
+    adding the proclicks on single pages and fixing the reload problem with f5
+
+[33mcommit cd2ed0efa17ad914d363d86a40c29a12d60ea038[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Mon Jan 15 00:33:11 2024 +0100
+
+    Adding my TRVL-website project
+
+[33mcommit 49d15611a982674cbb5f2e8d125e281520a83905[m
+Author: Jan Havlat <jan.havlath@gmail.com>
+Date:   Wed Jan 10 01:57:26 2024 +0100
+
+    Initialize project using Create React App
