@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import '../hero-section.css'
+// import '../hero-section.css'
+import './video-play.css'
 
 export default function VideoPlay() {
 
