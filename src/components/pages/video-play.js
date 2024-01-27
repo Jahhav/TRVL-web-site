@@ -12,13 +12,14 @@ export default function VideoPlay() {
         setVideo(videos[nextIndex]);
     }
 
+
     return (
         <div className='video-body'>
             <div className='video-container'>
                 <video src={video} autoPlay loop muted />
                 <div className='arrow-box'>
-                    <i class="fa-solid fa-angle-left" onClick={() => navigateVideo(-1)}></i>
-                    <i class="fa-solid fa-angle-right" onClick={() => navigateVideo(1)}></i>
+                    <i class="fa-solid fa-angle-left arrow-icon" onClick={() => navigateVideo(-1)}></i>
+                    <i class="fa-solid fa-angle-right arrow-icon" onClick={() => navigateVideo(1)}></i>
                 </div>
             </div>
         </div>
