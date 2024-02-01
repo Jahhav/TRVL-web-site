@@ -1,0 +1,110 @@
+body {margin: 0; height: 100%;}
+
+
+.sign-up-body{
+  background-image: url('/public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 100%; 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 30px;
+  
+}
+
+.signup-card{
+    grid-column: span 3;
+}
+
+
+@media (max-width: 917px) {
+    .signup-card{
+        grid-column: span 6;
+        margin: 20px 0 40px 0;
+    }
+    .sign-up-body{
+        height: 270vw; 
+        overflow: hidden;
+    }
+}
+
+.sign-up{
+    max-height: 200px;
+    font-size: 100px;
+    
+}
+
+.h1-container{
+    margin: 0;
+    padding: 0;
+    outline: hidden;
+    max-width: 460px;
+    justify-content: center;
+    margin: 0 auto;
+    border: solid white 4px;
+    border-radius: 100px;
+
+}
+
+
+.form-container{
+    max-width: 450px;
+    max-height: 600px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background: rgba(216, 216, 216, 0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.95;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.button-placeholder{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    max-height: 160px;
+    margin-top: 40px;
+}
+
+.button-button{
+    font-size: 30px;
+    height: 60px;
+    width: 160px;
+    /* margin: 40px 0 0 0; */
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    opacity: 0.8;
+    transition: opacity 500ms ease 0s;
+    margin-top: auto;
+}
+
+.button-button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+input[type="email"], input[type="password"], input[type="text"]{
+        padding: 20px;
+        margin: 10px 0 10px 0 ;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .form-container{
+        padding: 10px;
+    }
+}

@@ -8,6 +8,12 @@
     outline: none;
     border: none;
     cursor: pointer;
+
+    
+}
+
+.btn-mobile{
+    /* max-height: 150px; */
 }
 
 .btn--primary{
