@@ -7,34 +7,44 @@ body {margin: 0; height: 100%;}
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
   height: 100%; 
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   padding-top: 30px;
   
 }
 
 .signup-card{
-    grid-column: span 3;
+    grid-column: span 6;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.sign-up{
+    max-height: 150px;
+    font-size: 100px;
+    
 }
 
 
 @media (max-width: 917px) {
     .signup-card{
-        grid-column: span 6;
-        margin: 20px 0 40px 0;
+        grid-column: span 12;
+        margin: 30px auto 20px auto;
+        width: calc(100% - 40px);
+
     }
     .sign-up-body{
-        height: 270vw; 
+        height: auto; 
         overflow: hidden;
     }
-}
-
-.sign-up{
-    max-height: 200px;
-    font-size: 100px;
+    .sign-up{
+    max-height: 100px;
+    font-size: 60px;
     
+}
 }
 
 .h1-container{
@@ -95,7 +105,7 @@ form{
     opacity: 1;
 }
 
-input[type="email"], input[type="password"], input[type="text"]{
+input{
         padding: 20px;
         margin: 10px 0 10px 0 ;
         border: 1px solid #ddd;
